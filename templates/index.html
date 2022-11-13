@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<script defer type=text/javascript src="{{
+        url_for('static', filename='javascript.js')
+      }}">
+    </script>
+<style>
+    canvas {
+        border: solid 1px black;
+    }
+</style>
+
+<body>
+    <canvas id="canvas" width="128" height="128"></canvas>
+    <button type="button" id="btnPred">Predict letter</button>
+    <button type="button" id="btnClear">Clear canvas</button>
+    <p id="out"></p>
+    
+</body>
+
+</html>
